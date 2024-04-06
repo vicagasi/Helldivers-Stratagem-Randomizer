@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">  
+    <head>  
+        <title>Helldivers 2 Stratagem Randominzer</title>
+        <link rel="stylesheet" href="CSS/main.css">
+    </head>
+    <body onload="get_random_image()">
+
+        <div id="button_container">
+            <button onclick="get_random_image()">REROLL</button>
+        </div>
+
+        <main>
+            <img id="strat1" src="IMG/Anti-Materiel Rifle.svg">
+            <img id="strat2" src="IMG/Anti-Materiel Rifle.svg">
+            <img id="strat3" src="IMG/Anti-Materiel Rifle.svg">
+            <img id="strat4" src="IMG/Anti-Materiel Rifle.svg">
+        </main>
+
+        <div>
+            <input type="checkbox" id="option1" name="option1" id="option1" value="option1" checked>
+            <label for="option1"> Guarantee one support weapon</label><br>
+            <input type="checkbox" id="option2" name="option2" id="option2" value="option2" checked>
+            <label for="option2"> Limit to one support weapon</label><br>
+            <input type="checkbox" id="option3" name="option3" id="option3" value="option3" checked>
+            <label for="option3"> Limit to one backpack</label><br>
+        </div>
+
+        <script src="JS/main.js"></script>
+    </body>
+</html>
