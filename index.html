@@ -3,12 +3,11 @@
     <head>  
         <title>Helldivers 2 Stratagem Randominzer</title>
         <link rel="stylesheet" href="CSS/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     </head>
     <body onload="get_random_image()">
-
-        <div id="button_container">
-            <button onclick="get_random_image()">REROLL</button>
-        </div>
 
         <main>
             <img id="strat1" src="IMG/Anti-Materiel Rifle.svg">
@@ -16,6 +15,10 @@
             <img id="strat3" src="IMG/Anti-Materiel Rifle.svg">
             <img id="strat4" src="IMG/Anti-Materiel Rifle.svg">
         </main>
+
+        <div class="reroll">
+            <button onclick="get_random_image()">REROLL</button>
+        </div>
 
         <div>
             <input type="checkbox" id="option1" name="option1" id="option1" value="option1" checked>
